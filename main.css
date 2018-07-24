@@ -1,0 +1,25 @@
+
+@keyframes glowing {
+    0% {text-shadow:0 0 .1em, 0 0 .1em;}
+    25% {text-shadow:0 0 .1em, 0 0 .2em;}
+    50% {text-shadow:0 0 .2em, 0 0 .1em;}
+    75%{text-shadow: 0 0 .2em, 0 0 .2em;}
+    100%{text-shadow:0 0 .1em, 0 0 .1em;}
+  }
+  @-webkit-keyframes glowing {
+    
+    0% {text-shadow:0 0 .1em, 0 0 .1em;}
+    25% {text-shadow:0 0 .1em, 0 0 .2em;}
+    50% {text-shadow:0 0 .12em, 0 0 .1em;}
+    75%{text-shadow: 0 0 .2em, 0 0 .2em;}
+    100%{text-shadow:0 0 .1em, 0 0 .1em;}
+  }
+  body {
+      background:black;
+      text-align:center;
+    }
+  h1 {
+      font-size:4em;
+      color:white;
+      animation: glowing 2s infinite;
+    }
